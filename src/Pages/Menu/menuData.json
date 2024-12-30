@@ -1,0 +1,66 @@
+[
+    {
+      "name": "",
+      "price": "₹200",
+      "image": "assets/img/menu/lobster-bisque.jpg",
+      "ingredients": "Lorem, deren, trataro, filede, nerada",
+      "category": "starters"
+    },
+    {
+      "name": "Bread Barrel",
+      "price": "₹200",
+      "image": "assets/img/menu/bread-barrel.jpg",
+      "ingredients": "Lorem, deren, trataro, filede, nerada",
+      "category": "specialty"
+    },
+    {
+      "name": "Crab Cake",
+      "price": "₹200",
+      "image": "assets/img/menu/cake.jpg",
+      "ingredients": "A delicate crab cake served on a toasted roll with lettuce and tartar sauce",
+      "category": "starters"
+    },
+    {
+      "name": "Caesar Selections",
+      "price": "₹200",
+      "image": "assets/img/menu/caesar.jpg",
+      "ingredients": "Lorem, deren, trataro, filede, nerada",
+      "category": "salads"
+    },
+    {
+      "name": "Tuscan Grilled",
+      "price": "₹200",
+      "image": "assets/img/menu/tuscan-grilled.jpg",
+      "ingredients": "Grilled chicken with provolone, artichoke hearts, and roasted red pesto",
+      "category": "specialty"
+    },
+    {
+      "name": "Mozzarella Stick",
+      "price": "₹200",
+      "image": "assets/img/menu/mozzarella.jpg",
+      "ingredients": "Lorem, deren, trataro, filede, nerada",
+      "category": "starters"
+    },
+    {
+      "name": "Greek Salad",
+      "price": "₹200",
+      "image": "assets/img/menu/greek-salad.jpg",
+      "ingredients": "Fresh spinach, crisp romaine, tomatoes, and Greek olives",
+      "category": "salads"
+    },
+    {
+      "name": "Spinach Salad",
+      "price": "₹200",
+      "image": "assets/img/menu/spinach-salad.jpg",
+      "ingredients": "Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette",
+      "category": "salads"
+    },
+    {
+      "name": "Lobster Roll",
+      "price": "₹200",
+      "image": "assets/img/menu/lobster-roll.jpg",
+      "ingredients": "Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll",
+      "category": "specialty"
+    }
+  ]
+  

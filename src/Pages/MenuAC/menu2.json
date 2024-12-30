@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Paneer 65",
+        "price": "₹160",
+        "image": "assets/img/menu/veg-starter.jpg",
+        "ingredients": "Paneer, spices, herbs",
+        "category": "Veg Starter"
+    },
+    {
+        "name": "Mushroom 65",
+        "price": "₹150",
+        "image": "assets/img/menu/veg-starter.jpg",
+        "ingredients": "Mushrooms, batter, spices",
+        "category": "Veg Starter"
+    },
+    {
+        "name": "Gobi 65",
+        "price": "₹150",
+        "image": "assets/img/menu/veg-starter.jpg",
+        "ingredients": "Cauliflower, batter, spices",
+        "category": "Veg Starter"
+    },
+    {
+        "name": "Baby Corn 65",
+        "price": "₹150",
+        "image": "assets/img/menu/veg-starter.jpg",
+        "ingredients": "Baby corn, batter, spices",
+        "category": "Veg Starter"
+    },
+    {
+        "name": "Dragon Paneer",
+        "price": "₹180",
+        "image": "assets/img/menu/veg-starter.jpg",
+        "ingredients": "Paneer, spicy dragon sauce, vegetables",
+        "category": "Veg Starter"
+    },
+    {
+        "name": "Dragon Baby Corn",
+        "price": "₹180",
+        "image": "assets/img/menu/veg-starter.jpg",
+        "ingredients": "Baby corn, spicy dragon sauce, vegetables",
+        "category": "Veg Starter"
+    },
+    {
+        "name": "Paneer Manchurian Dry / Gravy",
+        "price": "₹180 / ₹200",
+        "image": "assets/img/menu/veg-starter.jpg",
+        "ingredients": "Paneer, Manchurian sauce, spices",
+        "category": "Veg Starter"
+    },
+    {
+        "name": "Mushroom Manchurian Dry / Gravy",
+        "price": "₹160 / ₹180",
+        "image": "assets/img/menu/veg-starter.jpg",
+        "ingredients": "Mushrooms, Manchurian sauce, spices",
+        "category": "Veg Starter"
+    },
+    {
+        "name": "Prawn 65",
+        "price": "₹250",
+        "image": "assets/img/menu/non-veg-starter.jpg",
+        "ingredients": "Prawns, batter, spices",
+        "category": "Non - Veg Starter"
+    },
+    {
+        "name": "Kaadai 65",
+        "price": "₹140",
+        "image": "assets/img/menu/non-veg-starter.jpg",
+        "ingredients": "Quail, batter, spices",
+        "category": "Non - Veg Starter"
+    },
+    {
+        "name": "Chicken 65",
+        "price": "₹160",
+        "image": "assets/img/menu/non-veg-starter.jpg",
+        "ingredients": "Chicken, batter, spices",
+        "category": "Non - Veg Starter"
+    },
+    {
+        "name": "Chicken Lollipop",
+        "price": "₹180",
+        "image": "assets/img/menu/non-veg-starter.jpg",
+        "ingredients": "Chicken wings, batter, spices",
+        "category": "Non - Veg Starter"
+    },
+    {
+        "name": "Egg Podimas",
+        "price": "₹60",
+        "image": "assets/img/menu/egg-starter.jpg",
+        "ingredients": "Eggs, onions, spices",
+        "category": "Egg Starter"
+    },
+    {
+        "name": "Chilli Egg",
+        "price": "₹140",
+        "image": "assets/img/menu/egg-starter.jpg",
+        "ingredients": "Eggs, chillies, spices",
+        "category": "Egg Starter"
+    },
+    {
+        "name": "Egg Manchurian",
+        "price": "₹140",
+        "image": "assets/img/menu/egg-starter.jpg",
+        "ingredients": "Eggs, Manchurian sauce, spices",
+        "category": "Egg Starter"
+    },
+    {
+        "name": "Egg Masala",
+        "price": "₹120",
+        "image": "assets/img/menu/egg-starter.jpg",
+        "ingredients": "Eggs, masala sauce, spices",
+        "category": "Egg Starter"
+    }
+]

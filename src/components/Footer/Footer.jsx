@@ -146,20 +146,20 @@ const Footer = () => {
                 <p>
                 18, Kattur Rd, opp. k.k cinemas, <br />
                 Minjur, Tamil Nadu 601203<br />
-                  <strong>Phone:</strong> +91 5589 5588 5<br />
-                  <strong>Email:</strong> info@example.com<br />
+                  <strong>Phone:</strong> +91 78453 75177<br />
+                  <strong>Email:</strong> bbqhouse.minjur@gmail.com<br />
                 </p>
                 <div className="social-links mt-3 flex space-x-2">
-                  <a href="#" target="_blank" className="whatsapp">
+                  <a href="http://wa.me/917845375177" target="_blank" className="whatsapp">
                     <i className="bx bxl-whatsapp"></i>
                   </a>
-                  <a href="#" target="_blank" className="facebook">
+                  <a href="https://www.facebook.com/share/12ChTqEwYn1/?mibextid=wwXIfr" target="_blank" className="facebook">
                     <i className="bx bxl-facebook"></i>
                   </a>
-                  <a href="#" target="_blank" className="instagram">
+                  <a href="https://www.instagram.com/bbqhouse_minjur/profilecard/?igsh=ZzI0eGx1NHBvZDdl" target="_blank" className="instagram">
                     <i className="bx bxl-instagram"></i>
                   </a>
-                  <a href="#" target="_blank" className="youtube">
+                  <a href="https://youtube.com/@bbqhouse_minjur?si=qqV9NU4CFcmN-sIq" target="_blank" className="youtube">
                     <i className="bx bxl-youtube"></i>
                   </a>
                 </div>
@@ -170,19 +170,19 @@ const Footer = () => {
                 <ul>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">About us</a>
+                    <a href="/about">About us</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Menu</a>
+                    <a href="/menu">Menu</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Contact Us</a>
+                    <a href="/contact">Contact Us</a>
                   </li>
                   
                 </ul>
@@ -197,15 +197,15 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Online Delivery</a>
+                    <a href="#">Free Home Delivery</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Specialty BBQ Meat Cuts & Sides</a>
+                    <a href="#">AC Dine In</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Outdoor Dining & Patio Service</a>
+                    <a href="#">Order through Swiggy & Zomato</a>
                   </li>
                 </ul>
               </div>

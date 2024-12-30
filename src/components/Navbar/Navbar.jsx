@@ -53,19 +53,19 @@ const Navbar = () => {
         transition={{ duration: 0.9, delay:2 ,ease: "easeIn" }}
       >
         <li>
-          <a href="#home">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="/about">About</a>
         </li>
         <li>
-          <a href="#menu">Menu</a>
+          <a href="/menu">Menu</a>
         </li>
         <li>
           <a href="#gallery">Gallery</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
       </motion.ul>
 
@@ -93,19 +93,19 @@ const Navbar = () => {
           className="mobile-nav absolute top-0 left-0 bg-gray-800 text-white p-6 space-y-4 w-2/3 h-screen"
         >
           <li>
-            <a href="#home" className="text-lg">Home</a>
+            <a href="/" className="text-lg">Home</a>
           </li>
           <li>
-            <a href="#about" className="text-lg">About</a>
+            <a href="/about" className="text-lg">About</a>
           </li>
           <li>
-            <a href="#menu" className="text-lg">Menu</a>
+            <a href="/menu" className="text-lg">Menu</a>
           </li>
           <li>
             <a href="#gallery" className="text-lg">Gallery</a>
           </li>
           <li>
-            <a href="#contact" className="text-lg">Contact</a>
+            <a href="/contact" className="text-lg">Contact</a>
           </li>
         </motion.ul>
       )}

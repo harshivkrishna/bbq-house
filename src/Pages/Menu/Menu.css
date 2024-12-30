@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+/* .navbar{
+    position: relative !important;
+    border-bottom: 1px solid grey;
+} */
+
+.item-name{
+    font-family: "Dancing Script", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.menu-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #cda45e;
+}
+
+.menu-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.menu-btn{
+    height: 50px;
+    width: 160px;
+    background-color: #cda45e;
+    color: black;
+    font-size: 15px;
+    font-weight: 700; 
+    border-radius: 25px;   
+    cursor: pointer;
+}
