@@ -1,12 +1,7 @@
 import React, { useState } from "react";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+
 import { motion } from "framer-motion";
 import "./Gallery.css";
-
-if (typeof window !== "undefined" && typeof global === "undefined") {
-  window.global = window; // Polyfill global
-}
 
 const Gallery = () => {
   const images = [
@@ -21,13 +16,6 @@ const Gallery = () => {
   ];
 
   const [isOpen, setIsOpen] = useState(false);
-  const [photoIndex, setPhotoIndex] = useState(0);
-
-  const handleImageClick = (index) => {
-    setPhotoIndex(index);
-    setIsOpen(true);
-  };
-
   return (
     <section id="gallery" className="gallery py-12">
       <div className="container mx-auto px-4">
@@ -50,27 +38,11 @@ const Gallery = () => {
                 src={image}
                 alt={`Gallery ${index + 1}`}
                 className="w-full h-auto rounded-lg cursor-pointer transform transition-transform duration-300"
-                onClick={() => handleImageClick(index)}
               />
             </motion.div>
           ))}
         </div>
       </div>
-
-      {isOpen && (
-        <Lightbox
-          mainSrc={images[photoIndex]}
-          nextSrc={images[(photoIndex + 1) % images.length]}
-          prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-          onCloseRequest={() => setIsOpen(false)}
-          onMovePrevRequest={() =>
-            setPhotoIndex((photoIndex + images.length - 1) % images.length)
-          }
-          onMoveNextRequest={() =>
-            setPhotoIndex((photoIndex + 1) % images.length)
-          }
-        />
-      )}
     </section>
   );
 };
