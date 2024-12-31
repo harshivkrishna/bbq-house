@@ -115,7 +115,7 @@
   {
     "name": "Gobi 65",
     "price": "₹150",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/gobi_65.jpg",
     "category": "veg-starter"
   },
   {
@@ -139,7 +139,7 @@
   {
     "name": "Gobi Manchurian Dry / Gravy",
     "price": "₹160/180",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/gobi_manchurian.jpg",
     "category": "veg-starter"
   },
   {
