@@ -127,7 +127,7 @@
   {
     "name": "Paneer Manchurian Dry / Gravy",
     "price": "₹180/200",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/chilli_paneer.jpg",
     "category": "veg-starter"
   },
   {
@@ -151,7 +151,7 @@
   {
     "name": "Chilli Paneer Dry / Gravy",
     "price": "₹180/200",
-    "image": "/assets/menu/chilli_paneer.jpg",
+    "image": "/assets/menu/",
     "category": "veg-starter"
   },
   {
