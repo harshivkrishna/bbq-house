@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-
+import React from "react";
 import { motion } from "framer-motion";
 import "./Gallery.css";
 
@@ -15,7 +14,6 @@ const Gallery = () => {
     "/assets/img/gallery/gallery-8.jpg",
   ];
 
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <section id="gallery" className="gallery py-12">
       <div className="container mx-auto px-4">

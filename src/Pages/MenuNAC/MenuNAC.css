@@ -14,3 +14,9 @@
     font-weight: 700;
     color: #cda45e;
 }
+
+@media (max-width:500px) {
+    .categorylist{
+        width: 100% !important;
+    }
+}

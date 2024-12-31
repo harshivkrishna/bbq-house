@@ -12,12 +12,24 @@ const MenuAC = () => {
         ? menuData
         : menuData.filter((item) => item.category === filter);
 
-    const categories = [
-        { name: "All", filter: "all" },
-        { name: "Starters", filter: "starters" },
-        { name: "Salads", filter: "salads" },
-        { name: "Specialty", filter: "specialty" },
-    ];
+        const categories = [
+            { name: "All", filter: "all" },
+            { name: "Veg Soup", filter: "veg-soup" },
+            { name: "Non Veg Soup", filter: "non-veg-soup" },
+            { name: "Veg Starters", filter: "veg-starter" },
+            { name: "Non Veg Starters", filter: "non-veg-starter" },
+            { name: "Egg Starters", filter: "egg-starter" },
+            { name: "Veg Rice & Noodles", filter: "veg-rice-noodles" },
+            { name: "Non Veg Rice & Noodles", filter: "non-veg-rice-noodles" },
+            { name: "Raitha", filter: "raitha" },
+            { name: "Veg Specials", filter: "veg-special" },
+            { name: "Veg Gravy", filter: "veg-gravy" },
+            { name: "Non Veg Gravy", filter: "non-veg-gravy" },
+            { name: "Tandoori", filter: "tandoori" },
+            { name: "BBQ & Grill", filter: "bbq" },
+            { name: "Shawarma", filter: "shawarma" },
+            
+        ];
 
     return (
         <div>
@@ -31,13 +43,13 @@ const MenuAC = () => {
                     <h1 className="menu-title">AC MENU</h1>
                     <div className="flex justify-center mb-8">
                         
-                        <ul className="flex gap-4">
+                        <ul className="flex w-1/2 flex-wrap justify-evenly gap-2">
                             {categories.map((category) => (
                                 <li
                                     key={category.filter}
                                     className={`cursor-pointer px-4 py-2 border rounded ${filter === category.filter
-                                            ? "bg-custom-gold text-white"
-                                            : "bg-white text-custom-gold"
+                                            ? "bg-custom-gold text-black"
+                                            : "bg-black text-custom-gold"
                                         }`}
                                     onClick={() => setFilter(category.filter)}
                                 >
