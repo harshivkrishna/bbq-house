@@ -78,10 +78,10 @@ const ContactSection = () => {
                 <i className="bx bx-map text-2xl mr-3"></i>
                 <div className='contact-details'>
                   <h4 className="font-semibold">Location:</h4>
-                  <p>18, Kattur Rd, opp. k.k cinemas, Minjur, Tamil Nadu 601203</p>
+                  <p>18,Kattur Rd,opp. k.k cinemas,Minjur,Tamil Nadu 601203</p>
                 </div>
               </div>
-
+    
               <div className="open-hours flex items-center">
                 <i className="bx bx-time text-2xl mr-3"></i>
                 <div>
