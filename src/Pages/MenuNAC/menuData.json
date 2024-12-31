@@ -2,13 +2,13 @@
   {
     "name": "Noodle Soup",
     "price": "₹90",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/noodles_soup.jpg",
     "category": "veg-soup"
   },
   {
     "name": "Mushroom Pepper Soup",
     "price": "₹120",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/mushroom_soup.jpg",
     "category": "veg-soup"
   },
   {
@@ -76,7 +76,7 @@
   {
     "name": "Hot and Sour Chicken Soup",
     "price": "₹110",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/hot_chicken_soup.jpg",
     "category": "non-veg-soup"
   },
   {
@@ -109,7 +109,7 @@
   {
     "name": "Mushroom 65",
     "price": "₹150",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/mushroom_65.jpg",
     "category": "veg-starter"
   },
   {
@@ -133,7 +133,7 @@
   {
     "name": "Mushroom Manchurian Dry / Gravy",
     "price": "₹160/180",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/mushroom_manchurian.jpg",
     "category": "veg-starter"
   },
   {
@@ -151,7 +151,7 @@
   {
     "name": "Chilli Paneer Dry / Gravy",
     "price": "₹180/200",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/chilli_paneer.jpg",
     "category": "veg-starter"
   },
   {
@@ -163,7 +163,7 @@
   {
     "name": "Chilli Gobi Dry / Gravy",
     "price": "₹160/180",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/chilli_gobi.jpg",
     "category": "veg-starter"
   },
   {
@@ -340,13 +340,13 @@
   {
     "name": "Plain Biryani",
     "price": "₹110",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/plain_biryani.jpg",
     "category": "biryani"
   },
   {
     "name": "Egg Biryani",
     "price": "₹130",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/egg_biryani.jpg",
     "category": "biryani"
   },
   {
@@ -358,19 +358,19 @@
   {
     "name": "Mutton Dum Biryani",
     "price": "₹250",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/mutton_biryani.jpg",
     "category": "biryani"
   },
   {
     "name": "Chicken 65 Biryani",
     "price": "₹170",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/biryani_65.jpg",
     "category": "biryani"
   },
   {
     "name": "BBQ House SPL Chicken Biryani",
     "price": "₹190",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/spl_chicken_biryani.jpg",
     "category": "biryani"
   },
   {
@@ -640,7 +640,7 @@
   {
     "name": "Paneer Tikka Masala",
     "price": "₹220",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/paneer_tikka.jpg",
     "category": "veg-gravy"
   },
   {
@@ -709,7 +709,7 @@
   {
     "name": "Chicken Tikka Masala",
     "price": "₹250",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/chilli_chicken_gravy.jpg",
     "category": "non-veg-gravy"
   },
   {
@@ -754,7 +754,7 @@
   {
     "name": "Tandoori Chicken(H/F)",
     "price": "₹230/430",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/tandoori_chicken.jpg",
     "category": "tandoori"
   },
   {
@@ -808,7 +808,7 @@
   {
     "name": "Paneer Tikka",
     "price": "₹180",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/paneer_tikka.jpg",
     "category": "tandoori"
   },
   {
@@ -835,13 +835,13 @@
   {
     "name": "BBQ House SPL BBQ (H/F)",
     "price": "₹240/440",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/spl_barb.jpg",
     "category": "bbq"
   },
   {
     "name": "Alfham BBQ(H/F)",
     "price": "₹230/430",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/alafam_bbq.jpg",
     "category": "bbq"
   },
   {
@@ -896,9 +896,9 @@
     "category": "shawarma"
   },
   {
-    "name": "Pani Poori",
+    "name": "Pani Poori Shawarma",
     "price": "₹170",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/pani_poori.jpg",
     "category": "shawarma"
   },
   {
@@ -916,7 +916,7 @@
   {
     "name": "SPL Plate Shawarma",
     "price": "₹170",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/spicy_shawarma.jpg",
     "category": "shawarma"
   }
 ]
