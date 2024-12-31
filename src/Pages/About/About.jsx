@@ -15,6 +15,17 @@ const About = () => {
             <img src={banner} alt="" />
             <h4>About us</h4>
         </div>
+        <div className="section-title p-4 mb-8">
+          <h2 className="text-4xl font-bold text-gray-800">About</h2>
+          <p className="text-lg text-gray-500">About Us</p>
+        </div>
+        <div className='p-4'>
+            <h2 className='about-title-name'>Welcome to BBQ HOUSE - Minjur!</h2>
+            <p>At BBQ HOUSE, we specialize in delivering authentic, delicious, and freshly prepared BBQ dishes, biryanis, and more. With a commitment to quality and hygiene, we use only halal ingredients and the finest spices to create mouthwatering flavors. Whether you dine in or order online, we ensure a memorable experience with every bite.
+            </p>
+            <br />
+            <p>Join us for premium meals, unbeatable offers, and a warm, welcoming atmosphere. At BBQ HOUSE, your satisfaction is our top priority!</p>
+        </div>
         <section id="about" className="about">
             <div
                 className="container about-div flex justify-center p-3 align-middle"

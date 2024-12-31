@@ -33,7 +33,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}      
             transition={{ duration: 2, delay: 0.2, ease: "easeIn" }} 
           >
-            <a href="https://youtube.com/@bbqhouse_minjur?si=qqV9NU4CFcmN-sIq" target='_blank' className="play-btn text-4xl text-white hover:text-primary transition duration-300">
+            <a href="https://www.instagram.com/bbqhouse_minjur/profilecard/?igsh=ZzI0eGx1NHBvZDdl" target='_blank' className="play-btn text-4xl text-white hover:text-primary transition duration-300">
             </a>
           </motion.div>
         </div>

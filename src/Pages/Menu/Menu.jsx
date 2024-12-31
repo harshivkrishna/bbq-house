@@ -4,7 +4,7 @@ import menuData from "./menuData.json";
 import menuDataNAC from "./menuDataNAC.json";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-import banner from '../../../public/assets/banner-about.jpg'
+import banner from '../../../public/assets/menu-bg.jpg'
 import './Menu.css';
 
 const Menu = () => {
@@ -48,7 +48,7 @@ const Menu = () => {
         </div>
             <section id="menu" className="menu py-10">
                 <div className="container mx-auto px-4">
-                    <div className="section-title text-center mb-8">
+                    <div className="section-title mb-8">
                         <h2 className="text-3xl font-bold">Menu</h2>
                         <p className="text-gray-600">Check Our Tasty Menu</p>
                     </div>
@@ -58,7 +58,7 @@ const Menu = () => {
                             {categories.map((category) => (
                                 <li
                                     key={category.filter}
-                                    className={`cursor-pointer px-4 py-2 border rounded ${filterAC === category.filter
+                                    className={`cursor-pointer px-4 py-2  border rounded ${filterAC === category.filter
                                         ? "bg-custom-gold text-black"
                                         : "bg-black text-custom-gold"
                                         }`}
