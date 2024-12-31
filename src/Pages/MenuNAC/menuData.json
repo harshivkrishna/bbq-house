@@ -910,13 +910,13 @@
   {
     "name": "SPL Shawarma",
     "price": "₹130",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/spicy_shawarma.jpg",
     "category": "shawarma"
   },
   {
     "name": "SPL Plate Shawarma",
     "price": "₹170",
-    "image": "/assets/menu/spicy_shawarma.jpg",
+    "image": "/assets/menu/shawarma_plate.jpg",
     "category": "shawarma"
   }
 ]
