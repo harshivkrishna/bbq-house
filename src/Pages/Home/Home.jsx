@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Topbar from "../../components/Topbar/Topbar";
 import HeroSection from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
-import About from "../../components/About/Aboutsection";
 import WhyUs from "../../components/WhyUs/WhyUs";
 import Specials from "../../components/Specials/Specials";
 import Testimonials from "../../components/Testimonials/Testimonials";
