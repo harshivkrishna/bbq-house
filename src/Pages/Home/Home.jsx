@@ -7,9 +7,9 @@ import WhyUs from "../../components/WhyUs/WhyUs";
 import Specials from "../../components/Specials/Specials";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import Gallery from "../../components/Gallery/Gallery";
-import ContactSection from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 import "./Home.css";
+import ContactSection from "../../components/Contact/Contactsection";
 
 const Home = () => {
     const [showPreloader, setShowPreloader] = useState(true);

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from 'emailjs-com';
-import './Contact.css';
+import './Contactsection.css';
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({

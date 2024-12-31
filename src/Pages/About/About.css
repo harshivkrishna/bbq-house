@@ -26,3 +26,11 @@
     mask-image: linear-gradient(to bottom,black 75%,transparent);
 }
 
+@media (max-width:400px) {
+    .content p,.content ul li{
+        font-size: 12px;
+    }   
+    .content p{
+        margin: 20px 0;
+    }
+}
