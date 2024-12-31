@@ -42,3 +42,32 @@
         width: 100% !important;
     }
 }
+
+.about-banner{
+    width: 100vw;
+    height: 35vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-banner h4{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+}
+.about-banner{
+    position: relative;
+}
+
+.about-banner img{
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    height: 30vh;
+    width: 100%;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom,white 75%,transparent);
+}
+

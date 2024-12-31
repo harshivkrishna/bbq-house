@@ -4,6 +4,7 @@ import menuData from "./menuData.json";
 import menuDataNAC from "./menuDataNAC.json";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
+import banner from '../../../public/assets/banner-about.jpg'
 import './Menu.css';
 
 const Menu = () => {
@@ -38,9 +39,13 @@ const Menu = () => {
         ];
 
     return (
-        <div>
+        <div className="overflow-x-hidden">
             <Navbar />
             {/* AC Menu Section */}
+            <div className='about-banner'>
+            <img src={banner} alt="" />
+            <h4>Our Menu</h4>
+        </div>
             <section id="menu" className="menu py-10">
                 <div className="container mx-auto px-4">
                     <div className="section-title text-center mb-8">

@@ -71,7 +71,7 @@ const Navbar = () => {
           <a href="/menu">Menu</a>
         </li>
         <li>
-          <a href="#gallery">Gallery</a>
+          <a href="/#gallery">Gallery</a>
         </li>
         <li>
           <a href="/contact">Contact</a>

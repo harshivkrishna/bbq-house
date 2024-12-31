@@ -3,6 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Open Sans", sans-serif;
   background: #0c0b09;
