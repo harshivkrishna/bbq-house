@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Topbar from "../../components/Topbar/Topbar";
 import HeroSection from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
-import About from "../../components/About/About";
+import About from "../../components/About/Aboutsection";
 import WhyUs from "../../components/WhyUs/WhyUs";
 import Specials from "../../components/Specials/Specials";
 import Testimonials from "../../components/Testimonials/Testimonials";
@@ -10,6 +10,7 @@ import Gallery from "../../components/Gallery/Gallery";
 import Footer from "../../components/Footer/Footer";
 import "./Home.css";
 import ContactSection from "../../components/Contact/Contactsection";
+import Aboutsection from "../../components/About/Aboutsection";
 
 const Home = () => {
     const [showPreloader, setShowPreloader] = useState(true);
@@ -68,7 +69,7 @@ const Home = () => {
                 <>
                     <Navbar />
                     <HeroSection />
-                    <About />
+                    <Aboutsection />
                     <WhyUs />
                     <Specials />
                     <Testimonials />

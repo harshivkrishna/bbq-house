@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import './About.css';
+import './Aboutsection.css';
 
-const About = () => {
+const Aboutsection = () => {
     return (
         <section id="about" className="about">
             <div
@@ -64,4 +64,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Aboutsection;
