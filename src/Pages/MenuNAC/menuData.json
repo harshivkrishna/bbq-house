@@ -652,7 +652,7 @@
   {
     "name": "Channa Masala",
     "price": "₹160",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/chana_masala.jpg",
     "category": "veg-gravy"
   },
 
@@ -703,7 +703,7 @@
   {
     "name": "Chicken Pepper Masala",
     "price": "₹190",
-    "image": "/assets/menu/",
+    "image": "/assets/menu/Chicken-Pepper-Masala.jpg",
     "category": "non-veg-gravy"
   },
   {
