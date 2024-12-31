@@ -1,10 +1,10 @@
 .contact .info {
     width: 100%;
+    padding: 20px 10px;
   }
   
   .contact .info i {
     font-size: 20px;
-    float: left;
     width: 44px;
     height: 44px;
     background: #cda45e;

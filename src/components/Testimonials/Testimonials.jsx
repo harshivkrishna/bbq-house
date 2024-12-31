@@ -93,9 +93,9 @@ const Testimonials = () => {
                 <h3 className="text-xl font-semibold text-gray-800">
                   {testimonial.name}
                 </h3>
-                <h4 className="text-sm font-medium text-gray-500">
+                {/* <h4 className="text-sm font-medium text-gray-500">
                   {testimonial.role}
-                </h4>
+                </h4> */}
               </div>
             </SwiperSlide>
           ))}

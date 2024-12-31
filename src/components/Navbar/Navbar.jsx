@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { useLocation } from "react-router-dom"; // Import useLocation for route checking
 import './Navbar.css';
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [bgColor, setBgColor] = useState("transparent");
+
+  const location = useLocation(); // Get the current route
 
   const toggleMobileMenu = () => {
     setIsMobile(!isMobile);
@@ -23,34 +26,40 @@ const Navbar = () => {
 
   // Add event listener on scroll
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    if (location.pathname === "/") { // Only add scroll event listener on the home page
+      window.addEventListener("scroll", handleScroll);
+    }
     return () => {
       window.removeEventListener("scroll", handleScroll); // Clean up event listener on component unmount
     };
-  }, []);
+  }, [location.pathname]);
+
+  // Check if the current page is the home page
+  const isHomePage = location.pathname === "/";
 
   return (
     <motion.nav
-      className={`navbar flex justify-between items-center p-5 fixed w-full top-0 left-0 z-50`}
+      className={`navbar flex justify-between items-center p-5 ${
+        isHomePage ? "fixed" : "relative"
+      } w-full top-0 left-0 z-50`}
       style={{ backgroundColor: bgColor }} // Apply background color dynamically
     >
       {/* Logo */}
       <motion.div
-        initial={{ opacity: 0, x:100 }}
-        animate={{ opacity: 1 ,x:0}}
-        transition={{ duration: 0.9,delay:2, ease: "easeIn"  }}
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.9, delay: 1, ease: "easeIn" }}
         className="text-2xl flex font-bold logo-container"
       >
-        {/* <a href="/">BBQ HOUSE</a> */}
         <img src="/assets/logo.png" className="logo-img" alt="Logo" />
       </motion.div>
 
       {/* Links for desktop */}
       <motion.ul
-        className="hidden md:flex space-x-6 "
-        initial={{ opacity: 0, x:-100 }}
-        animate={{ opacity: 1 ,x:0}}
-        transition={{ duration: 0.9, delay:2 ,ease: "easeIn" }}
+        className="hidden md:flex space-x-6"
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.9, delay: 1, ease: "easeIn" }}
       >
         <li>
           <a href="/">Home</a>
@@ -69,7 +78,7 @@ const Navbar = () => {
         </li>
       </motion.ul>
 
-      {/* Mobile Menu Button (Box Icons) */}
+      {/* Mobile Menu Button */}
       <div className="md:hidden">
         <motion.button
           onClick={toggleMobileMenu}

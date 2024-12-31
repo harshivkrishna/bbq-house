@@ -5,8 +5,8 @@ import Home from './Pages/Home/Home'
 import Menu from './Pages/Menu/Menu'
 import MenuAC from './Pages/MenuAC/MenuAC'
 import MenuNAC from './Pages/MenuNAC/MenuNAC'
-import Contact from './Pages/Contact/Contact'
 import About from './Pages/About/About'
+import Contactpage from './Pages/Contact/Contactpage'
 const App = () => {
   return (
     <div>
@@ -15,7 +15,7 @@ const App = () => {
           <Route path='/menu' element={<Menu/>}></Route>
           <Route path='/menu/ac' element={<MenuAC/>}></Route>
           <Route path='/menu/non-ac' element={<MenuNAC/>}></Route>
-          <Route path='/contact' element={<Contact/>}></Route>
+          <Route path='/contact' element={<Contactpage/>}></Route>
           <Route path='/about' element={<About/>}></Route>
         </Routes>
     </div>

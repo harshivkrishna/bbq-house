@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import ContactSection from '../../components/Contact/Contact'
 import Footer from '../../components/Footer/Footer'
 
-const Contact = () => {
+const Contactpage = () => {
   return (
     <div>
         <Navbar/>
@@ -13,4 +13,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contactpage

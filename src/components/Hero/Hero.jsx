@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import './Hero.css'
 
 const HeroSection = () => {
+  const date= new Date();
   return (
     <section id="hero" className="flex items-center bg-cover bg-center h-screen relative text-center text-lg-start">
       <div className="container mx-auto relative px-4 py-16 md:py-24">
@@ -16,10 +17,10 @@ const HeroSection = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Welcome to <span className="text-primary">BBQ House</span>
             </h1>
-            <h2 className="text-xl md:text-2xl mb-6">Delivering great food for more than 18 years!</h2>
+            <h2 className="text-xl md:text-2xl mb-6">Delivering great food for more than {date.getFullYear() -2019} years!</h2>
 
             <div className="btns space-x-4">
-              <a href="#menu" className="btn-menu inline-block bg-primary text-white py-2 px-6 rounded-lg hover:bg-primary-dark transition duration-300">
+              <a href="/menu" className="btn-menu inline-block bg-primary text-white py-2 px-6 rounded-lg hover:bg-primary-dark transition duration-300">
                 Our Menu
               </a>
              

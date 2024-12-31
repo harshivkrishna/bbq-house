@@ -11,7 +11,7 @@ const ContactSection = () => {
     message: '',
   });
 
-  const [status, setStatus] = useState(''); // For loading and success/error messages
+  const [status, setStatus] = useState(''); 
 
   // Handle form input changes
   const handleInputChange = (e) => {
@@ -73,7 +73,7 @@ const ContactSection = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            <div className="info space-y-6">
+            <div className="info">
               <div className="address flex items-center">
                 <i className="bx bx-map text-2xl mr-3"></i>
                 <div className='contact-details'>
@@ -87,9 +87,9 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold">Open Hours:</h4>
                   <p>
-                    Monday-Saturday:
+                    Monday-Sunday:
                     <br />
-                    11:00 AM - 12:00 PM
+                    12:00 PM - 2:00 AM
                   </p>
                 </div>
               </div>
@@ -98,7 +98,7 @@ const ContactSection = () => {
                 <i className="bx bx-envelope text-2xl mr-3"></i>
                 <div>
                   <h4 className="font-semibold">Email:</h4>
-                  <p>info@example.com</p>
+                  <p>bbqhouse.minjur@gmail.com</p>
                 </div>
               </div>
 
@@ -106,7 +106,7 @@ const ContactSection = () => {
                 <i className="bx bx-phone text-2xl mr-3"></i>
                 <div>
                   <h4 className="font-semibold">Call:</h4>
-                  <p>+1 5589 55488 55s</p>
+                  <p>+91 78453 75177</p>
                 </div>
               </div>
             </div>

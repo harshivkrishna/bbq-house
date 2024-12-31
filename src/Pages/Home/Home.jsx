@@ -1,49 +1,107 @@
-import React from 'react'
-import { useEffect } from "react";
-import Topbar from '../../components/Topbar/Topbar'
-import HeroSection from '../../components/Hero/Hero'
-import Navbar from '../../components/Navbar/Navbar'
-import About from '../../components/About/About'
-import WhyUs from '../../components/WhyUs/WhyUs'
-import Specials from '../../components/Specials/Specials'
-import Testimonials from '../../components/Testimonials/Testimonials'
-import Gallery from '../../components/Gallery/Gallery'
-import ContactSection from '../../components/Contact/Contact'
-import Footer from '../../components/Footer/Footer'
+import React, { useEffect, useState } from "react";
+import Topbar from "../../components/Topbar/Topbar";
+import HeroSection from "../../components/Hero/Hero";
+import Navbar from "../../components/Navbar/Navbar";
+import About from "../../components/About/About";
+import WhyUs from "../../components/WhyUs/WhyUs";
+import Specials from "../../components/Specials/Specials";
+import Testimonials from "../../components/Testimonials/Testimonials";
+import Gallery from "../../components/Gallery/Gallery";
+import ContactSection from "../../components/Contact/Contact";
+import Footer from "../../components/Footer/Footer";
+import "./Home.css";
 
 const Home = () => {
+    const [showPreloader, setShowPreloader] = useState(true);
+    const [showBackToTop, setShowBackToTop] = useState(false);
 
     useEffect(() => {
-        const handleLoad = () => {
-            const preloader = document.getElementById("preloader");
-            if (preloader) {
-                preloader.remove();
+        // Show preloader for 3 seconds
+        const timer = setTimeout(() => {
+            setShowPreloader(false);
+        }, 3000);
+
+        // Handle scroll for "back-to-top" button
+        const handleScroll = () => {
+            if (window.scrollY > 300) {
+                setShowBackToTop(true);
+            } else {
+                setShowBackToTop(false);
             }
         };
 
-        // Attach the load event listener
-        window.addEventListener("load", handleLoad);
+        window.addEventListener("scroll", handleScroll);
 
-        // Cleanup the event listener on unmount
+        // Cleanup timer and event listener on unmount
         return () => {
-            window.removeEventListener("load", handleLoad);
+            clearTimeout(timer);
+            window.removeEventListener("scroll", handleScroll);
         };
     }, []);
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
     return (
         <div>
-            <Navbar />
-            <HeroSection />
-            <About />
-            <WhyUs />
-            <Specials />
-            <Testimonials />
-            <Gallery />
-            <ContactSection />
-            <Footer />
-            {/* <div id="preloader"></div> */}
-            <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i class='bx bx-up-arrow-alt'></i></a>
-        </div>
-    )
-}
+            {/* Show preloader */}
+            {showPreloader && (
+                <div
+                    id="preloader"
+                    style={{
+                        position: "fixed",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                        zIndex: 10000,
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                    }}
+                >
+                </div>
+            )}
 
-export default Home
+            {!showPreloader && (
+                <>
+                    <Navbar />
+                    <HeroSection />
+                    <About />
+                    <WhyUs />
+                    <Specials />
+                    <Testimonials />
+                    <Gallery />
+                    <ContactSection />
+                    <Footer />
+                </>
+            )}
+
+            {/* Back-to-Top Button */}
+            {showBackToTop && (
+                <button
+                    className="arrow-to-up d-flex align-items-center justify-content-center"
+                    onClick={scrollToTop}
+                    style={{
+                        position: "fixed",
+                        bottom: "20px",
+                        right: "20px",
+                        width: "50px",
+                        height: "50px",
+                        background: "#000",
+                        color: "#fff",
+                        borderRadius: "50%",
+                        border: "none",
+                        cursor: "pointer",
+                        zIndex: 9999,
+                    }}
+                >
+                    <i className="bx bx-up-arrow-alt"></i>
+                </button>
+            )}
+        </div>
+    );
+};
+
+export default Home;
