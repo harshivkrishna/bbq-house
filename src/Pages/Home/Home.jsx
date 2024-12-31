@@ -92,7 +92,6 @@ const Home = () => {
                         background: "#000",
                         color: "#fff",
                         borderRadius: "50%",
-                        border: "none",
                         cursor: "pointer",
                         zIndex: 9999,
                     }}
