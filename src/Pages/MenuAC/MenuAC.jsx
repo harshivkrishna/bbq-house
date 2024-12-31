@@ -43,7 +43,7 @@ const MenuAC = () => {
                     <h1 className="menu-title">AC MENU</h1>
                     <div className="flex justify-center mb-8">
                         
-                        <ul className="flex w-1/2 flex-wrap justify-evenly gap-2">
+                        <ul className="categorylist grid w-1/2  grid-cols-2 text-center justify-evenly gap-4">
                             {categories.map((category) => (
                                 <li
                                     key={category.filter}
